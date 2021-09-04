@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<!-- While using relative path, SVG Images was not visible in my Browser . AS a result I had written complete path name 
+as it was in my computer. In case you are not able to see the image. change the location of image to you local disk location with format same as
+mentioned. I have also attached video of output for clarification.-->
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Envelope</title>
+		<h1><i><b>Made By: Anuj Kumar Sahu <b><i> <h1>
+		<style>
+		.outerflap{		position:absolute;
+		top:180px;
+		left:200px;
+		right:200px
+		margin:auto;
+		transform-origin:top;
+		animation:open 5s infinite;
+		
+		
+		}
+		
+		.back{
+		position:absolute;
+		top:180px;
+		left:200px;
+		right:200px
+		margin:auto;
+		animation:close 5s infinte;
+		}
+
+		.inner_part{
+		position:absolute;
+		top:180px;
+		left:200px;
+		right:200px
+		margin:auto;
+		}
+		.front{
+		position:absolute;
+		top:180px;
+		left:200px;
+		right:200px
+		margin:auto;
+		}
+		.full{
+		position:absolute;
+		top:180px;
+		left:200px;
+		right:200px
+		margin:auto;
+		}
+		@keyframes open{
+			   0%{ transform: rotatex(-180deg);
+				transition: transform 2s ease, z-index 1s;
+				z-index: 1;}
+				
+				75%{
+					   transform: rotatex(0deg);
+						transition: transform 0.4s 0.6s ease, z-index 1s;
+						z-index: 5;
+				}
+		}
+		@keyframe close{
+			from(top:60px;)
+			to(top:180px;)
+		}
+
+	
+		</style>
+	</head>
+	<body>
+	<div class="outerflap">
+	<img src="file:///C:/Users/ajay%20kumar%20sahu/Documents/Anuj%20sem%205/envelope/outerflap.svg" alt=outerflap>
+	</div>
+	<div class="back">
+	<img src="file:///C:/Users/ajay%20kumar%20sahu/Documents/Anuj%20sem%205/envelope/envelope%20backgound.svg" alt=background>
+	</div>
+	
+	<div class="inner_part">
+	<img src="file:///C:/Users/ajay%20kumar%20sahu/Documents/Anuj%20sem%205/envelope/inner_part.svg" alt=inner_part>
+	</div>
+	<div class="front">
+	<img src="file:///C:/Users/ajay%20kumar%20sahu/Documents/Anuj%20sem%205/envelope/envelope%20front.svg" alt=front>
+	</div>
+	
+
+	</body>
+</html>

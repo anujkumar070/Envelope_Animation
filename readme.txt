@@ -5,4 +5,3 @@ I have also attached a video incase you just want to view output of this code
 
 --BY: Anuj Kumar Sahu.
 
-<img src="https://github.com/anujkumar070/Envelope_Animation/blob/main/Recording%20%2316.mp4"></img>
